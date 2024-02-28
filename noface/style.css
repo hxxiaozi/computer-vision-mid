@@ -16,6 +16,8 @@ canvas {
   border-color: lightpink; 
   border-width: 5px;
 
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
