@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+
+  width: 70% !important;
+  height: 70% !important;
+  background:linear-gradient(to bottom right ,yellowgreen 0%, #41a2ecc9 100%);
+
+  /* background:linear-gradient(to bottom right ,yellowgreen 0%, #41a2ecc9 100%); */
+  margin: auto;
+  border-radius: 10px;
+  border-style:dashed;
+  border-color: lightpink; 
+  border-width: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.button{
+  text-align: center;
+  margin: 5% ;
+    background-color: lightpink;
+    padding: 10px;
+    border-width: 5px;
+
+}

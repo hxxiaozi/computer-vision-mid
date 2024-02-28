@@ -5,8 +5,9 @@ html, body {
 canvas {
   display: block;
 
-  width: 95% !important;
-  height: 95% !important;
+  width: 70% !important;
+  height: 70% !important;
+  background:linear-gradient(to bottom right ,yellowgreen 0%, #41a2ecc9 100%);
 
   /* background:linear-gradient(to bottom right ,yellowgreen 0%, #41a2ecc9 100%); */
   margin: auto;
@@ -15,4 +16,16 @@ canvas {
   border-color: lightpink; 
   border-width: 5px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ .button{
+  text-align: center;
+  margin: 5% ;
+  background-color: lightpink;
+  padding: 10px;
+  border-width: 5px;
 }

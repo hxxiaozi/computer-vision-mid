@@ -146,7 +146,7 @@ function magic(elbowMPx, elbowMPy, wristMPx, wristMPy) {
   let change = [comet, fire, pink];
 
   if (Z <= 1) {
-    sound.setVolume(0.2);
+    sound.setVolume(0.5);
     sound.playMode("untilDone");
     sound.play();
     heehee += 1;
